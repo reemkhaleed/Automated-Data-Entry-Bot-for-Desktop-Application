@@ -3,20 +3,17 @@ import time
 import logging
 import traceback
 from typing import List
-
 import requests
 from pywinauto.application import Application
 from pywinauto import keyboard, timings
 
-# ---------- Config ----------
+
 API_URL = "https://jsonplaceholder.typicode.com/posts"
 POST_COUNT = 10
 KEYBOARD_PAUSE = 0.008  # pause between keys for typing simulation
 SAVE_TIMEOUT = 8  # seconds to wait for Save As dialog
-# ---------------------------
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
-
 
 def desktop_tjm_dir() -> str:
     desktop = os.path.join(os.path.expanduser("~"), "Desktop")
@@ -249,4 +246,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
