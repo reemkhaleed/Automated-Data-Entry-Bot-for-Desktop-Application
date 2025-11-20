@@ -11,10 +11,6 @@ It fetches posts from the [JSONPlaceholder API](https://jsonplaceholder.typicode
 - Handles errors (fallbacks to saving directly as a `.txt` file if automation fails).
 - Can be packaged into a **standalone executable (.exe)** for Windows.
 
-## 📂 Output Example
-On your Desktop, a folder named `tjm-project` will be created containing:
-
-
 ## ⚙️ Setup Instructions
 
 ### 1. Clone the repository
